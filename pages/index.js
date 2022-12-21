@@ -17,7 +17,7 @@ export default function Home() {
         <title>An Nguyen Blog</title>
       </Head>
       <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">Hello, Welcome to An Nguyen Blog</h1>
+        <h1 className="text-center text-3xl font-bold underline">Hello, Welcome to An Nguyen Blog</h1>
       </main>
     </>
   )
