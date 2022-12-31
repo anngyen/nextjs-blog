@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex align-center justify-center pt-5">
-        <div className="w-1/2 rounded overflow-hidden mg-10 shadow-md p-2 flex justify-center align-center">
+        <div className="sm:w-screen rounded overflow-hidden mg-10 shadow-md p-2 flex justify-center align-center md:w-1/2 rounded overflow-hidden mg-10 shadow-md p-2 flex justify-center align-center">
           <Form/>
         </div>
       </div>
