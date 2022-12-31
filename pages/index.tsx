@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
+import  Form  from './components/form.js'
+import { Main } from 'next/document.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,9 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className="flex align-center justify-center pt-5">
+        <div className="w-1/2 rounded overflow-hidden mg-10 shadow-md p-2 flex justify-center align-center">
+          <Form/>
+        </div>
+      </div>
     </>
   )
 }
